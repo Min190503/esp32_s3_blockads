@@ -1,0 +1,12 @@
+
+menu "Block Ad Configuration"
+
+    config BLOCK_AD_WIFI_SSID
+        string "WiFi SSID"
+        default ""
+
+    config BLOCK_AD_WIFI_PASSWORD
+        string "WiFi Password"
+        default ""
+
+endmenu
